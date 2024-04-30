@@ -1,0 +1,58 @@
+/* Button styling */
+#pretzelsBtn,
+#sugarCookiesBtn,
+#chocolateBarBtn,
+#chipsBtn,
+#chocolateChipCookiesBtn,
+#sourCandyBtn,
+#buyBtn,
+#clearSelectionsBtn,
+#cancelBtn {
+    -fx-font-size: 14pt;
+    -fx-background-color: #4CAF50; /* Green */
+    -fx-text-fill: white;
+    -fx-pref-width: 150px;
+    -fx-pref-height: 40px;
+    -fx-background-radius: 5px; /* Rounded corners */
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.2), 5, 0, 0, 0); /* Shadow effect */
+    /* Hover effect */
+    -fx-background-color: #45a049; /* Darker green */
+}
+#pretzelsBtn:hover,
+#sugarCookiesBtn:hover,
+#chocolateBarBtn:hover,
+#chipsBtn:hover,
+#chocolateChipCookiesBtn:hover,
+#sourCandyBtn:hover,
+#buyBtn:hover,
+#clearSelectionsBtn:hover,
+#cancelBtn:hover {
+    -fx-background-color: #4CAF50; /* Green */
+}
+
+/* Label styling */
+#totalLabel,
+#moneyPaidLabel,
+#changeGivenLabel {
+    -fx-font-size: 14pt;
+    -fx-text-fill: white; /* Lighter text color */
+}
+
+/* Title styling */
+.title {
+    -fx-font-size: 24pt;
+    -fx-font-weight: bold; /* Bold font */
+    -fx-text-fill: #4CAF50; /* Same green color as buttons */
+    -fx-padding: 10px; /* Add some padding */
+}
+
+/* GridPane styling */
+.grid-pane {
+    -fx-hgap: 10px; /* Horizontal gap between elements */
+    -fx-vgap: 10px; /* Vertical gap between elements */
+}
+
+/* Set background color to dark gray */
+.root {
+    -fx-background-color: #333333; /* Dark gray */
+}
