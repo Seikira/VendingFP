@@ -31,11 +31,9 @@
 }
 
 /* Label styling */
-#totalLabel,
-#moneyPaidLabel,
-#changeGivenLabel {
-    -fx-font-size: 14pt;
-    -fx-text-fill: white; /* Lighter text color */
+.totalLabel {
+    -fx-font-size: 20pt; /* Bigger font size */
+    -fx-text-fill: #4CAF50; /* Same green color as buttons */
 }
 
 /* Title styling */
