@@ -8,17 +8,15 @@
     <Label text="Snack Haven" alignment="CENTER" GridPane.columnIndex="0" GridPane.columnSpan="3" GridPane.rowIndex="0" styleClass="title"/>
     
     <Button id="pretzelsBtn" text="Pretzels $1.50" GridPane.rowIndex="1" GridPane.columnIndex="0"/>
-    <Button id="sugarCookiesBtn" text="Sugar Cookies $2.00" GridPane.rowIndex="1" GridPane.columnIndex="1"/>
-    <Button id="chocolateBarBtn" text="Chocolate Bar $1.75" GridPane.rowIndex="1" GridPane.columnIndex="2"/>
+    <Button id="sugarCookiesBtn" text="Cookies $2.00" GridPane.rowIndex="1" GridPane.columnIndex="1"/>
+    <Button id="chocolateBarBtn" text="Snickers $1.75" GridPane.rowIndex="1" GridPane.columnIndex="2"/>
     <Button id="chipsBtn" text="Chips $1.25" GridPane.rowIndex="2" GridPane.columnIndex="0"/>
-    <Button id="chocolateChipCookiesBtn" text="Chocolate Chip Cookies $2.25" GridPane.rowIndex="2" GridPane.columnIndex="1"/>
-    <Button id="sourCandyBtn" text="Sour Candy $1.50" GridPane.rowIndex="2" GridPane.columnIndex="2"/>
+    <Button id="chocolateChipCookiesBtn" text="CC Cooki $2.25" GridPane.rowIndex="2" GridPane.columnIndex="1"/>
+    <Button id="sourCandyBtn" text="Candy $1.50" GridPane.rowIndex="2" GridPane.columnIndex="2"/>
     
-    <Label id="totalLabel" text="Total: $0.00" GridPane.rowIndex="3" GridPane.columnIndex="0"/>
-    <Label id="moneyPaidLabel" text="Money Paid:" GridPane.rowIndex="4" GridPane.columnIndex="0"/>
-    <Label id="changeGivenLabel" text="Change Given:" GridPane.rowIndex="5" GridPane.columnIndex="0"/>
+    <Label id="totalLabel" text="Total: $0.00" GridPane.rowIndex="3" GridPane.columnIndex="0" styleClass="totalLabel"/>
     
-    <Button id="buyBtn" text="Buy" GridPane.rowIndex="6" GridPane.columnIndex="0"/>
-    <Button id="clearSelectionsBtn" text="Clear" GridPane.rowIndex="6" GridPane.columnIndex="1"/>
-    <Button id="cancelBtn" text="Cancel" GridPane.rowIndex="6" GridPane.columnIndex="2"/>
+    <Button id="buyBtn" text="Buy" GridPane.rowIndex="4" GridPane.columnIndex="0"/>
+    <Button id="clearSelectionsBtn" text="Clear" GridPane.rowIndex="4" GridPane.columnIndex="1"/>
+    <Button id="cancelBtn" text="Cancel" GridPane.rowIndex="4" GridPane.columnIndex="2"/>
 </GridPane>
