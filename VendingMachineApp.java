@@ -16,13 +16,24 @@ import java.io.FileWriter;
 import java.io.FileReader;
 import java.io.BufferedReader;
 import java.io.IOException;
-import javafx.application.Platform; // Import Platform
+import javafx.application.Platform;
 
+/**
+ * VendingMachineApp class represents the main class of the vending machine application.
+ * It extends the Application class from JavaFX.
+ */
 public class VendingMachineApp extends Application {
 
     private double totalPrice = 0.0; // Variable to hold the total price
     private Label totalLabel; // Declare totalLabel as a class-level variable
 
+    /**
+     * The start method is called when the JavaFX application is launched.
+     * It sets up the UI components and event handlers.
+     *
+     * @param primaryStage The primary stage of the application.
+     * @throws Exception if an error occurs during application startup.
+     */
     @Override
     public void start(Stage primaryStage) throws Exception {
         // Load the FXML file
@@ -176,6 +187,11 @@ public class VendingMachineApp extends Application {
         alert.showAndWait();
     }
 
+    /**
+     * Fetches product details from the RapidAPI endpoint.
+     * This method sends an asynchronous HTTP request to the RapidAPI endpoint
+     * and processes the response.
+     */
     private void fetchProductDetails() {
         String apiKey = "a6277cd436msheafae34a1045e39p15166ejsn863e6fcd5171";
         try {
@@ -204,6 +220,12 @@ public class VendingMachineApp extends Application {
         }
     }
 
+    /**
+     * The main method is the entry point of the Java application.
+     * It launches the JavaFX application.
+     *
+     * @param args Command line arguments.
+     */
     public static void main(String[] args) {
         launch(args);
     }
