@@ -4,12 +4,28 @@ import java.net.http.HttpRequest;
 import java.net.http.HttpResponse;
 import com.google.gson.Gson;
 
+/**
+ * ProductApiClient class retrieves and updates product details from an API.
+ */
 public class ProductApiClient {
 
+    /**
+     * The main method of the ProductApiClient class.
+     * It retrieves and prints details of a product with the given ID.
+     *
+     * @param args Command line arguments.
+     */
     public static void main(String[] args) {
         getProductDetails(1); // Assuming the product ID is 1
     }
 
+    /**
+     * Retrieves and prints details of a product with the given ID.
+     * The product details are fetched from an API and then parsed using Gson.
+     * The name of the product is set to "chips" and the price is updated to 1.25.
+     *
+     * @param productId The ID of the product to retrieve.
+     */
     public static void getProductDetails(int productId) {
         try {
             // Create HTTP request
